@@ -37,4 +37,5 @@ A few examples from the full project list:
 * **Skylanders: Giants / SWAP Force** — Gameplay systems and platform integration
 * **Heroes of Ruin** — Gameplay engineering and cross-platform support
 * **Halo Mega Bloks Prototype** — Systems prototyping and gameplay iteration
+
 (Full write-ups available in the **Projects** section.)
