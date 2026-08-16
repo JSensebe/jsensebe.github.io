@@ -31,6 +31,9 @@ Includes work on:
 
 ## Selected Projects
 A few examples from the full project list:
+* **Jillian Michaels Fitness Adventure** — Kinect gameplay systems, body‑tracking logic, and large‑scale gameplay engineering
+* **Mighty Flip Champs!** — Hardware‑level graphics programming, horizontal blanking effects, and core gameplay architecture
+* **Space Chimps** — Dual‑screen 3D rendering, engine modification, and custom gameplay design
 * **Olly Power Play** — Gameplay engineering and systems development
 * **688i Submarine Trainer** — Real‑time simulation and training logic
 * **EMALS** — High‑fidelity physics-driven simulation
