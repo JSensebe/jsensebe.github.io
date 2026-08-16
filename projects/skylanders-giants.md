@@ -1,3 +1,7 @@
+---
+layout: default
+title: Skylanders Giants
+---
 # **Skylanders: Giants**
 ### **Platform(s):** Nintendo 3DS  
 ### **Role:** Gameplay / Systems Engineer  
@@ -91,3 +95,8 @@ I worked closely with designers who needed specific camera behaviors and gamepla
 
 ## **Outcome**
 *Skylanders: Giants* shipped on Nintendo 3DS in 2012. My contributions strengthened the engine’s capabilities, enabled expanded content, and ensured compatibility with Skylanders toy data — all under a compressed schedule and within the constraints of an unfamiliar engine and scripting environment.
+
+---
+
+## **Video**
+<iframe src="https://www.youtube-nocookie.com/embed/yrkz282g0TE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
