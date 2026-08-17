@@ -31,12 +31,12 @@ Includes work on:
 
 ## **Selected Projects**
 A few examples from the full project list:
-- **Jillian Michaels Fitness Adventure** (Xbox 360) — Kinect gameplay systems, body‑tracking logic, and large‑scale gameplay engineering
-- **Mighty Flip Champs!** (Nintendo DSi) — Hardware‑level graphics programming, horizontal blanking effects, and core gameplay architecture
-- **Space Chimps** (Nintendo DS) — Dual‑screen 3D rendering, engine modification, and custom gameplay design
-- **Olly Power Play** (Meta Quest 2, Pico Neo 4) — Gameplay engineering and systems development
-- **688i Submarine Trainer** (Windows) — Real‑time simulation and training logic
-- **EMALS** (Windows) — High‑fidelity physics-driven simulation
+- [**Jillian Michaels Fitness Adventure**](projects/jillian-michaels.html) (Xbox 360) — Kinect gameplay systems, body‑tracking logic, and large‑scale gameplay engineering
+- [**Mighty Flip Champs!**](projects/mighty-flip-champs.html)  (Nintendo DSi) — Hardware‑level graphics programming, horizontal blanking effects, and core gameplay architecture
+- [**Space Chimps**](projects/space-chimps.html)  (Nintendo DS) — Dual‑screen 3D rendering, engine modification, and custom gameplay design
+- [**Olly Power Play**](projects/olly-power-play.html)  (Meta Quest 2, Pico Neo 4) — Gameplay engineering and systems development
+- [**688i Submarine Trainer**](projects/688i-submarine-trainer.html)  (Windows) — Real‑time simulation and training logic
+- [**EMALS**](projects/emals.html)  (Windows) — High‑fidelity physics-driven simulation
 - [**Skylanders: Giants**](projects/skylanders-giants.html) (Nintendo 3DS) — Gameplay systems and platform integration
 - [**Skylanders: SWAP Force**](projects/skylanders-swap-force.html) (Nintendo 3DS) — Gameplay systems and platform integration
 - **Heroes of Ruin** (Nintendo 3DS) — Gameplay engineering and cross-platform support
