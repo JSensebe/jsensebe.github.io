@@ -1,9 +1,3 @@
-Here it is, John — a **fully polished, Cayman‑ready SWAP Force page draft**, built *only* from your actual notes and corrected details. This is structured identically to Giants, but the content reflects the deeper, more technical nature of your work on SWAP Force.
-
-You can paste this directly into your repo once GitHub stabilizes.
-
----
-
 ---
 layout: default  
 title: Skylanders SWAP Force  
@@ -147,5 +141,3 @@ Here is a sample of the gameplay in *Skylanders: SWAP Force*
     allowfullscreen>
   </iframe>
 </div>
-
-If you want to adjust tone, tighten sections, or add more detail about the VM or boss AI, I can refine it immediately.
