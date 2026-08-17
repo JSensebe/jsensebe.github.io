@@ -1,45 +1,43 @@
-# John Sensebe
+# **John Sensebe**
 
-### Senior Gameplay & Simulation Engineer
+### **Senior Gameplay & Simulation Engineer**
 I build real‑time interactive systems — from commercial game mechanics to high‑fidelity training simulations — using C#, C++, Unity, Unreal Engine, Python, and deep experience in gameplay architecture, physics, and deterministic behavior. My work spans entertainment, defense, and technical R&D, with a focus on clarity, reliability, and player‑centric design.
 
 I thrive in environments where engineering, design, and art intersect, and where the goal is to create systems that feel intuitive, responsive, and robust. Whether I’m architecting gameplay loops, building simulation tooling, or optimizing performance across platforms, I approach every project with precision, curiosity, and a collaborative mindset.
 
-## Core Strengths
-* **C#, C++**, Unity, Unreal Engine, Python
-* Gameplay systems architecture
-* Simulation & real‑time training systems
-* Physics, timing, and deterministic behavior
-* Tooling, pipelines, and performance optimization
-* Cross‑discipline collaboration
-* Shipping commercial titles across multiple platforms
+## **Core Strengths**
+- **C#, C++**, Unity, Unreal Engine, Python
+- Gameplay systems architecture
+- Simulation & real‑time training systems
+- Physics, timing, and deterministic behavior
+- Tooling, pipelines, and performance optimization
+- Cross‑discipline collaboration
+- Shipping commercial titles across multiple platforms
 
-## Featured Sections
-### Unity Expertise
+## **Featured Sections**
+### **Unity Expertise**
 A focused breakdown of my experience with Unity — including gameplay systems, simulation logic, tooling, performance optimization, and platform-specific considerations.
 
-### How I Work
+### **How I Work**
 My engineering philosophy, workflow, communication style, and approach to solving complex technical problems.
 
-### Projects
+### **Projects**
 A curated selection of shipped titles, simulation/training systems, prototypes, and technical explorations.
 Includes work on:
-* Commercial games
-* Defense/training simulations
-* R&D prototypes
-* Technical tools and pipelines
+- Commercial games
+- Defense/training simulations
+- R&D prototypes
+- Technical tools and pipelines
 
-## Selected Projects
+## **Selected Projects**
 A few examples from the full project list:
-* **Jillian Michaels Fitness Adventure** — Kinect gameplay systems, body‑tracking logic, and large‑scale gameplay engineering
-* **Mighty Flip Champs!** — Hardware‑level graphics programming, horizontal blanking effects, and core gameplay architecture
-* **Space Chimps** — Dual‑screen 3D rendering, engine modification, and custom gameplay design
-* **Olly Power Play** — Gameplay engineering and systems development
-
-* **688i Submarine Trainer** — Real‑time simulation and training logic
-* **EMALS** — High‑fidelity physics-driven simulation
-* **Skylanders: Giants / SWAP Force** — Gameplay systems and platform integration
-* **Heroes of Ruin** — Gameplay engineering and cross-platform support
-* **Halo Mega Bloks Prototype** — Systems prototyping and gameplay iteration
-
-(Full write-ups available in the **Projects** section.)
+- **Jillian Michaels Fitness Adventure** (Xbox 360) — Kinect gameplay systems, body‑tracking logic, and large‑scale gameplay engineering
+- **Mighty Flip Champs!** (Nintendo DSi) — Hardware‑level graphics programming, horizontal blanking effects, and core gameplay architecture
+- **Space Chimps** (Nintendo DS) — Dual‑screen 3D rendering, engine modification, and custom gameplay design
+- **Olly Power Play** (Meta Quest 2, Pico Neo 4) — Gameplay engineering and systems development
+- **688i Submarine Trainer** (Windows) — Real‑time simulation and training logic
+- **EMALS** (Windows) — High‑fidelity physics-driven simulation
+- [**Skylanders: Giants**](projects/skylanders-giants.html) (Nintendo 3DS) — Gameplay systems and platform integration
+- [**Skylanders: SWAP Force**](projects/skylanders-swap-force.html) (Nintendo 3DS) — Gameplay systems and platform integration
+- **Heroes of Ruin** (Nintendo 3DS) — Gameplay engineering and cross-platform support
+- **Halo Mega Bloks Prototype** (Xbox 360) — Systems prototyping and gameplay iteration
