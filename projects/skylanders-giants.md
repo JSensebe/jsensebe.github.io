@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Skylanders Giants
+title: "Skylanders: Giants"
 ---
 # **Skylanders: Giants**
 ### **Platform(s):** Nintendo 3DS  
