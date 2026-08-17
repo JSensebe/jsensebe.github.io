@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Skylanders SWAP Force  
+title: "Skylanders: SWAP Force"  
 ---
 # **Skylanders: SWAP Force**
 ### **Platform(s):** Nintendo 3DS  
