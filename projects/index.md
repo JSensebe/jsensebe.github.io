@@ -15,7 +15,7 @@ This page collects all of my professional work across game development, simulati
   Gameplay engineering, VR interaction systems, and performance optimization.
 
 ### **Console & Handheld**
-- [**Jillian Michaels Fitness Adventure**](jillian-michaels.html)  — Xbox 360  
+- [**Jillian Michaels Fitness Adventure**](jillian-michaels.html) — Xbox 360  
   Kinect gameplay systems, body‑tracking logic, and large‑scale gameplay engineering.
 
 - [**Skylanders: Giants**](skylanders-giants.html) — Nintendo 3DS  
