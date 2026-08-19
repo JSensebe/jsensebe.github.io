@@ -60,7 +60,7 @@ My contributions strengthened the project’s AI behavior and performance, and t
 
 ## **Links**
 - **<a href="https://www.youtube.com/watch?v=iRFWAHZy1vY" target="_blank" rel="noopener noreferrer">Gameplay Video</a>**  
-  A YouTube video showing some of Halo Mega Bloks’ gameplay from an older build. The code was leaked several years ago.  
+  A YouTube video showing some of *Halo Mega Bloks’* gameplay from an older build. The code was leaked several years ago.  
 
 ---
 
