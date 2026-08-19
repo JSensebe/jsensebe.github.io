@@ -15,7 +15,7 @@ title: Mighty Flip Champs!
 
 Although I didn’t design most of the puzzles, I worked closely with the designer because puzzle games demand pixel‑perfect consistency — players can’t be punished for being “one pixel too far to the right.” My work ensured the flip mechanic was readable, responsive, and visually distinctive.
 
-The game performed well enough that it was later **ported to the PlayStation Portable**. I didn’t work on the port, but I was credited on it, likely because some of my gameplay logic or timing code was reused or referenced. The DS‑specific H‑blank raster effects obviously couldn’t be reused directly on PSP hardware, and the PSP version reimagined the transitions using GPU‑friendly 3D effects while matching the timing and feel of the original.
+The game performed well enough that it was later **ported to the PlayStation Portable** as *Mighty Flip Champs! DX*. I didn’t work on the port, but I was credited on it, likely because some of my gameplay logic was reused or referenced. The DS‑specific H‑blank raster effects obviously couldn’t be reused directly on PSP hardware, and the PSP version reimagined the transitions using GPU‑friendly 3D effects while matching the feel of the original.
 
 *Mighty Flip Champs!* was the first entry in WayForward’s “Mighty” series, which later included *Mighty Milky Way*, *Mighty Switch Force!*, and *Mighty Switch Force! 2*.
 
@@ -36,10 +36,11 @@ The game performed well enough that it was later **ported to the PlayStation Por
 ### **1. Horizontal Blanking (H‑Blank) Effects**
 The DS’s H‑blank interrupt fires once per scanline, allowing per‑line manipulation of display registers. I used this to create:
 
-- **Vertical scaling** during the flip transition  
-- **A wavy distortion** on the bottom screen  
+- **vertical scaling** during the flip transition  
+- **a wavy distortion** on the bottom screen  
+- **a stronger wavy effect** during flips  
 
-These effects were based on earlier Game Boy Advance hobby work I had done, where I implemented more complex rotation and scaling effects. The DS version was simpler by comparison, but still required careful integration into WayForward’s engine.
+These effects were based on earlier Game Boy Advance hobby work I had done, where I implemented more complex rotation and scaling H‑blank effects. The DS version was simpler by comparison, but still required careful integration into WayForward’s engine.
 
 I pitched the wavy effect because the H‑blank integration was already solved — it was a natural extension of the technique and added visual flair without additional overhead.
 
@@ -82,7 +83,7 @@ This collaboration ensured the game felt responsive and readable despite its unu
 ---
 
 ### **5. Technical Background: GBA → DS**
-My H‑blank work originated from earlier Game Boy Advance hobby projects. The GBA version included rotation and scaling effects, so adapting the technique to the DS was straightforward — but integrating it into WayForward’s engine required careful engineering.
+My H‑blank work originated from earlier Game Boy Advance hobby projects. My GBA work included heavy H-blank calculations involving pseudo-3D rotation and scaling effects, so adapting the technique to the DS was straightforward — but integrating it into WayForward’s engine required careful engineering.
 
 This background gave me a strong foundation in raster effects and scanline timing, which directly benefited the project.
 
@@ -98,15 +99,16 @@ This background gave me a strong foundation in raster effects and scanline timin
 
 ---
 
-## **Video**
-Here is a sample of the gameplay in *Mighty Flip Champs!*  
-*(You can replace this with a preferred clip later.)*
+## **Links**
+- **<a href="https://www.youtube.com/watch?v=X1GFGyXTWo0" target="_blank" rel="noopener noreferrer">Gameplay Video</a>**  
+  A YouTube video showing some of *Mighty Flip Champs!*’s gameplay.  
+- **<a href="https://gamefaqs.gamespot.com/ds/960492-mighty-flip-champs/reviews/136635" target="_blank" rel="noopener noreferrer">GameFAQs Review</a>**  
+  A review of *Mighty Flip Champs!* from GameFAQs, representative of most reviews of the game.  
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;">
-  <iframe 
-    src="https://www.youtube-nocookie.com/embed/6m2v2wY8VtE" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-    frameborder="0" 
-    allowfullscreen>
-  </iframe>
-</div>
+---
+
+[← Back to Projects](./)
+
+---
+
+<p style="font-size: 0.75em;">© 2026 John Sensebe — Gameplay & Simulation Engineer</p>
