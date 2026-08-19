@@ -76,3 +76,11 @@ The minigame involved one of the babies collecting fireflies as quickly as possi
 
 ## **Outcome**
 These early DS projects were my introduction to professional game development. They taught me how to work within strict hardware limitations, adapt quickly to changing designs, and write gameplay code that shipped. The experience I gained here — from touch‑screen gesture systems to direct polygon manipulation — became the technical foundation for the handheld and console projects that followed.
+
+---
+
+[← Back to Projects](projects.html)
+
+---
+
+<p style="font-size: 0.75em;">© 2026 John Sensebe — Gameplay & Simulation Engineer</p>
