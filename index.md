@@ -41,3 +41,7 @@ I thrive where engineering, design, and art intersect. Whether architecting game
 ### **Simulation & Training**
 - [**688i Submarine Trainer**](projects/688i-submarine-trainer.html)  — Real‑time simulation and training logic  
 - [**EMALS**](projects/emals.html) — High‑fidelity complex simulation including multiple trainees and automated agents   
+
+---
+
+© 2026 John Sensebe — Gameplay & Simulation Engineer
