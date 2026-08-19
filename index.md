@@ -35,7 +35,7 @@ I thrive where engineering, design, and art intersect. Whether architecting game
 - [**Olly Power Play**](projects/olly-power-play.html)  (Meta Quest 2, Pico Neo 4) — VR gameplay engineering and systems development
 - [**Skylanders: Giants**](projects/skylanders-giants.html) (Nintendo 3DS) — Gameplay systems and platform integration
 - [**Skylanders: SWAP Force**](projects/skylanders-swap-force.html) (Nintendo 3DS) — Gameplay systems, tool engineering, and platform integration
-- [**Heroes of Ruin**](projects/heroes-of-ruin.html) (3DS) — Gameplay engineering and cross‑platform support  
+- [**Heroes of Ruin**](projects/heroes-of-ruin.html) (3DS) — Gameplay engineering and performance improvements  
 - [**Halo Mega Bloks (Cancelled)**](projects/halo-mega-bloks.html) (Xbox 360) — Systems architecture and gameplay iteration  
 
 ### **Simulation & Training**
@@ -44,4 +44,4 @@ I thrive where engineering, design, and art intersect. Whether architecting game
 
 ---
 
-© 2026 John Sensebe — Gameplay & Simulation Engineer
+<small>© 2026 John Sensebe — Gameplay & Simulation Engineer</small>
