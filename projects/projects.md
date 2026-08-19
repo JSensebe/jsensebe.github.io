@@ -32,9 +32,9 @@ This page collects all of my professional work across game development, simulati
 
 ### **WayForward Nintendo DS Projects**
 Grouped early‑career handheld work:
-- [**SpongeBob SquarePants: Creature from the Krusty Krab**](wayforward-misc.html)  
-- [**Looney Tunes: Duck Amuck**](wayforward-misc.html)  
-- [**Shrek: Ogres & Dronkeys**](wayforward-misc.html)
+- [**SpongeBob SquarePants: Creature from the Krusty Krab**](wayforward-misc.html#spongebob)  
+- [**Looney Tunes: Duck Amuck**](wayforward-misc.html#duck-amuck)  
+- [**Shrek: Ogres & Dronkeys**](wayforward-misc.html#shrek)
 
 ### **Other Handheld Titles**
 - [**Mighty Flip Champs!**](projects/mighty-flip-champs.html) — Nintendo DSi  
@@ -66,37 +66,3 @@ Grouped early‑career handheld work:
 ---
 
 <p style="font-size: 0.75em;">© 2026 John Sensebe — Gameplay & Simulation Engineer</p>
-
-
-
-
-# **How Breadcrumbs Fit In**
-
-Every project page can simply include at the bottom:
-
-```
-[← Back to Projects](projects.html)
-```
-
-It doesn’t matter whether the user arrived from:
-
-- the landing page  
-- the Unity Expertise page  
-- the How I Work page  
-- a direct link  
-- or the Projects page itself  
-
-The breadcrumb link always points back to this hub, giving you consistent navigation without layout overrides or theme hacks.
-
----
-
-# **Next Step**
-
-If you want, I can help you:
-
-- add the “Back to Projects” snippet to each project page  
-- refine the Projects page further  
-- build anchors for the grouped WayForward DS page  
-- shape the About page or Unity Expertise page next  
-
-Just tell me where you want to go.
