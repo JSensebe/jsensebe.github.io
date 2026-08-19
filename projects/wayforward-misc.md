@@ -17,7 +17,7 @@ Although these games were small in scope compared to later projects, they formed
 
 ---
 
-# **SpongeBob SquarePants: Creature from the Krusty Krab (NDS)**
+# **SpongeBob SquarePants: Creature from the Krusty Krab (NDS)** {#spongebob}
 
 ## **Overview**
 This was my first commercial game project and my introduction to both WayForward’s engine and the Nintendo DS. The game underwent massive design changes during development, shifting from a traditional platformer with touch‑screen enhancements to a game built almost entirely around touch‑screen gestures.
@@ -39,7 +39,7 @@ One highlight was the level where Plankton grows to giant size and fights off th
 
 ---
 
-# **Looney Tunes: Duck Amuck (NDS)**
+# **Looney Tunes: Duck Amuck (NDS)** {#duck-amuck}
 
 ## **Overview**
 Duck Amuck was based loosely on the classic cartoon short, with many minigames inspired by modern concepts rather than the original film. I wrote two of the minigames, each requiring very different technical approaches — one involving direct polygon manipulation, the other involving text input, localization, and drawing compression.
@@ -59,7 +59,7 @@ Duck Amuck was based loosely on the classic cartoon short, with many minigames i
 
 ---
 
-# **Shrek: Ogres & Dronkeys (NDS)**
+# **Shrek: Ogres & Dronkeys (NDS)** {#shrek}
 
 ## **Overview**
 This project was smaller in scope, and my work focused on a single minigame involving collecting fireflies. Despite its simplicity, it required careful handling of DS transparency and animation timing.
