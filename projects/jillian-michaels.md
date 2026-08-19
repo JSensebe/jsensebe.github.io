@@ -11,21 +11,22 @@ title: Jillian Michaels Fitness Adventure
 ---
 
 ## **Overview**
-*Jillian Michaels Fitness Adventure* was my first project at n‑Space, my first Xbox 360 title, and my first Kinect game. n‑Space had never shipped a Kinect game before and had only released one Xbox 360 title, so I had to learn the engine, the console, and the Kinect hardware all at once. Despite that, I had Kinect gameplay working in under a week.
+*Jillian Michaels Fitness Adventure* was my first project at n‑Space, my first Xbox 360 title, and my first Kinect game. n‑Space had never shipped a Kinect game before and had only released one Xbox 360 title, so I had to learn the engine, the console, and the Kinect hardware all at once. Despite that, I had the first Kinect gameplay working in under a week.
 
-I wrote **all of the Kinect gameplay code** and a large percentage of the overall gameplay systems. The design included exercises that Kinect’s skeletal tracking couldn’t handle, so I built a custom depth‑map comparison system that matched the player’s silhouette against Jillian Michaels’ motion‑capture data. This allowed the game to support poses and movements that were impossible to detect using skeletal tracking alone.
+I wrote **all foundational Kinect gameplay code** and a large percentage of the overall gameplay systems. The design included exercises that Kinect’s skeletal tracking couldn’t handle, so I built a custom depth‑map comparison system that matched the player’s silhouette against Jillian Michaels’ motion‑capture data. This allowed the game to support poses and movements that were impossible to detect using skeletal tracking alone.
 
 The Kinect was still new at the time, and the documentation was incomplete — especially for a project this ambitious. Much of the work required experimentation, reverse‑engineering behavior, and building systems that went beyond what the SDK officially supported.
 
 ---
 
 ## **My Responsibilities**
-- Wrote **all Kinect gameplay code**  
+- Wrote **all foundational Kinect gameplay code**  
 - Implemented a large percentage of the game’s overall gameplay  
 - Learned n‑Space’s engine, Xbox 360 hardware, and Kinect SDK simultaneously  
 - Built a custom depth‑map comparison system for exercises skeletal tracking couldn’t detect  
 - Integrated Kinect input into n‑Space’s engine  
 - Implemented early Xbox Avatar support (later cut due to design changes)  
+- Implemented a 2.5D display of the player using the Kinect’s depth map and a custom shader that flashed green, yellow, or red based on exercise performance  
 - Delivered working Kinect gameplay in under a week  
 
 ---
@@ -57,7 +58,7 @@ Many exercises in the design were **not compatible with skeletal tracking**, whi
 To solve this, I built a system that:
 
 - captured the player’s **depth map**  
-- compared it against Jillian Michaels’ **motion‑capture silhouettes**  
+- compared it against Jillian Michaels’ **motion‑capture skeletal animations**  
 - evaluated pose correctness based on shape and depth rather than joints  
 - bypassed skeletal tracking entirely for certain exercises  
 
@@ -83,7 +84,7 @@ The original design included Xbox Avatar support. I implemented early versions o
 - Avatar animation hooks  
 - Avatar integration with Kinect gameplay  
 
-The feature was later cut due to design changes, but the work demonstrates familiarity with multiple Xbox subsystems.
+The feature was later cut due to a shift toward using the Jillian Michaels model (and mocap data) from the previous game and adopting a first‑person perspective for the player. Even so, the work demonstrates familiarity with multiple Xbox subsystems.
 
 ---
 
@@ -93,7 +94,7 @@ The Kinect SDK was still new, and documentation was:
 - incomplete  
 - inconsistent  
 - missing examples for advanced use cases  
-- unclear about depth‑map behavior  
+- unclear about skeletal tracking limitations 
 - insufficient for exercises outside skeletal tracking’s capabilities  
 
 Much of the project required experimentation, testing edge cases, and building systems that went beyond what the SDK officially supported.
@@ -109,6 +110,7 @@ Much of the project required experimentation, testing edge cases, and building s
 - Ensuring responsive gameplay despite Kinect latency  
 - Integrating Kinect input into n‑Space’s engine  
 - Supporting early Avatar features before they were cut  
+- Converting a depth map into a “lit” representation of the player using a fragment shader  
 
 ---
 
@@ -117,15 +119,16 @@ I delivered the Kinect gameplay system for the entire project and implemented a 
 
 ---
 
-## **Video**
-Here is a sample of the gameplay in *Jillian Michaels Fitness Adventure*  
-*(You can replace this with a preferred clip later.)*
+## **Links**
+- **<a href="https://www.youtube.com/watch?v=jkP3bjh4gd0" target="_blank" rel="noopener noreferrer">Game Trailer</a>**  
+  A YouTube Video of the official trailer for *Jillian Michaels Fitness Adventure*.  
+- **<a href="https://www.youtube.com/watch?v=tSMQRSN9aro&t=256s" target="_blank" rel="noopener noreferrer">Gameplay Video</a>**  
+  A YouTube video showing some of *Jillian Michaels Fitness Adventure*’s gameplay.  
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;">
-  <iframe 
-    src="https://www.youtube-nocookie.com/embed/1tG0pVgX9nE" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-    frameborder="0" 
-    allowfullscreen>
-  </iframe>
-</div>
+---
+
+[← Back to Projects](./)
+
+---
+
+<p style="font-size: 0.75em;">© 2026 John Sensebe — Gameplay & Simulation Engineer</p>
