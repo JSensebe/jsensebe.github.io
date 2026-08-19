@@ -11,23 +11,23 @@ This page collects all of my professional work across game development, simulati
 ## **Game Development**
 
 ### **VR / Modern Platforms**
-- [**Olly Power Play**](projects/olly-power-play.html) — Meta Quest 2 / Pico Neo 4  
+- [**Olly Power Play**](olly-power-play.html) — Meta Quest 2 / Pico Neo 4  
   Gameplay engineering, VR interaction systems, and performance optimization.
 
 ### **Console & Handheld**
-- [**Jillian Michaels Fitness Adventure**](projects/jillian-michaels.html)  — Xbox 360  
+- [**Jillian Michaels Fitness Adventure**](jillian-michaels.html)  — Xbox 360  
   Kinect gameplay systems, body‑tracking logic, and large‑scale gameplay engineering.
 
-- [**Skylanders: Giants**](projects/skylanders-giants.html) — Nintendo 3DS  
+- [**Skylanders: Giants**](skylanders-giants.html) — Nintendo 3DS  
   Gameplay systems, platform integration, and performance improvements.
 
-- [**Skylanders: SWAP Force**](projects/skylanders-swap-force.html) — Nintendo 3DS  
+- [**Skylanders: SWAP Force**](skylanders-swap-force.html) — Nintendo 3DS  
   Gameplay systems, tool engineering, and platform integration.
 
-- [**Heroes of Ruin**](projects/heroes-of-ruin.html) — Nintendo 3DS  
+- [**Heroes of Ruin**](heroes-of-ruin.html) — Nintendo 3DS  
   Gameplay engineering and performance improvements.
 
-- [**Halo Mega Bloks (Cancelled)**](projects/halo-mega-bloks.html) — Xbox 360  
+- [**Halo Mega Bloks (Cancelled)**](halo-mega-bloks.html) — Xbox 360  
   Systems architecture, AI cover system overhaul, and gameplay iteration.
 
 ### **WayForward Nintendo DS Projects**
@@ -37,10 +37,10 @@ Grouped early‑career handheld work:
 - [**Shrek: Ogres & Dronkeys**](wayforward-misc.html#shrek-ogres--dronkeys-nds)
 
 ### **Other Handheld Titles**
-- [**Mighty Flip Champs!**](projects/mighty-flip-champs.html) — Nintendo DSi  
+- [**Mighty Flip Champs!**](mighty-flip-champs.html) — Nintendo DSi  
   Hardware‑level graphics programming, horizontal blanking effects, and core gameplay architecture.
 
-- [**Space Chimps**](projects/space-chimps.html) — Nintendo DS  
+- [**Space Chimps**](space-chimps.html) — Nintendo DS  
   Dual‑screen 3D rendering, engine modification, and custom gameplay design.
 
 ---
@@ -48,10 +48,10 @@ Grouped early‑career handheld work:
 ## **Simulation & Training Systems**
 
 ### **Navy / Air Force Trainers**
-- [**688i Submarine Trainer**](projects/688i-submarine-trainer.html)  
+- [**688i Submarine Trainer**](688i-submarine-trainer.html)  
   Real‑time simulation logic, deterministic systems, and multi‑station training behavior.
 
-- [**EMALS**](projects/emals.html)  
+- [**EMALS**](emals.html)  
   High‑fidelity physics simulation, multi‑trainee coordination, and automated agent behavior.
 
 ---
