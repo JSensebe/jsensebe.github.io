@@ -4,7 +4,7 @@ title: Projects
 ---
 # **Projects**
 
-This page collects all of my professional work across game development, simulation, training systems, and technical R&D. Each project page includes a short overview, technical highlights, and my specific contributions.
+This page collects all of my professional work across game development, simulation, training systems, and technical R&D. Each project page includes an overview, technical highlights, and my specific contributions.
 
 ---
 
@@ -32,7 +32,7 @@ This page collects all of my professional work across game development, simulati
 
 ### **WayForward Nintendo DS Projects**
 Grouped early‑career handheld work:
-- [**SpongeBob SquarePants: Creature from the Krusty Krab**](wayforward-misc.html#spongebob))  
+- [**SpongeBob SquarePants: Creature from the Krusty Krab**](wayforward-misc.html#spongebob)  
 - [**Looney Tunes: Duck Amuck**](wayforward-misc.md#duck-amuck)  
 - [**Shrek: Ogres & Dronkeys**](wayforward-misc.html#shrek)
 
