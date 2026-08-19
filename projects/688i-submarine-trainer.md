@@ -6,7 +6,7 @@ title: 688i Submarine Trainer
 
 ---
 
-## **Video**
+## **Links**
 - **<a href="https://www.navair.navy.mil/nawctsd/688i-Weapons-Launch-Console-WLC" target="_blank" rel="noopener noreferrer">NAWCTSD’s 688i WLC Page</a>**  
   Includes a video demo, mostly of the 2D direct copy of the old trainer. From 1:07, the 3D console is displayed. There is no interaction shown, but nearly all of the buttons, dials, and switches — everything needed for training — are fully functional.  
 
