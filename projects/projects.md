@@ -32,9 +32,9 @@ This page collects all of my professional work across game development, simulati
 
 ### **WayForward Nintendo DS Projects**
 Grouped early‑career handheld work:
-- [**SpongeBob SquarePants: Creature from the Krusty Krab**](wayforward-misc.html#spongebob)  
-- [**Looney Tunes: Duck Amuck**](wayforward-misc.html#duck-amuck)  
-- [**Shrek: Ogres & Dronkeys**](wayforward-misc.html#shrek)
+- [**SpongeBob SquarePants: Creature from the Krusty Krab**](wayforward-misc.html#spongebob-squarepants-creature-from-the-krusty-krab-nds))  
+- [**Looney Tunes: Duck Amuck**](wayforward-misc.md#looney-tunes-duck-amuck-nds)  
+- [**Shrek: Ogres & Dronkeys**](wayforward-misc.html#shrek-ogres--dronkeys-nds)
 
 ### **Other Handheld Titles**
 - [**Mighty Flip Champs!**](projects/mighty-flip-champs.html) — Nintendo DSi  
