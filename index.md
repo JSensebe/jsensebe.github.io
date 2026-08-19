@@ -20,9 +20,9 @@ I thrive where engineering, design, and art intersect. Whether architecting game
 ---
 
 ## **Featured Sections**
-- [**Unity Expertise**](how-i-work/unity.html) — Deep experience with gameplay systems, simulation logic, tooling, performance optimization, and platform‑specific considerations.  
-- [**How I Work**](how-i-work/how-i-work.html) — Engineering philosophy, workflow, communication style, and approach to solving complex technical problems.  
-- [**Projects**](projects/projects.html) — A curated selection of shipped titles, simulation/training systems, prototypes, and technical explorations.
+- [**Unity Expertise**](unity-expertise/) — Deep experience with gameplay systems, simulation logic, tooling, performance optimization, and platform‑specific considerations.  
+- [**How I Work**](how-i-work/) — Engineering philosophy, workflow, communication style, and approach to solving complex technical problems.  
+- [**Projects**](projects/) — A curated selection of shipped titles, simulation/training systems, prototypes, and technical explorations.
 
 ---
 
