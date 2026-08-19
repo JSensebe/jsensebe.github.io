@@ -44,4 +44,4 @@ I thrive where engineering, design, and art intersect. Whether architecting game
 
 ---
 
-<small>© 2026 John Sensebe — Gameplay & Simulation Engineer</small>
+<p style="font-size: 0.75em;">© 2026 John Sensebe — Gameplay & Simulation Engineer</p>
