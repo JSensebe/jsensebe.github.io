@@ -6,7 +6,7 @@ title: Electromagnetic Aircraft Launch System (EMALS) Trainer
 
 ---
 
-## **Video**
+## **Links**
 - **<a href="https://www.navair.navy.mil/nawctsd/Electromagnetic-Aircraft-Launch-System-EMALS-Operations-Ops-and-Maintenance-Maint" target="_blank" rel="noopener noreferrer">NAWCTSD's EMALS Trainer Page</a>**  
   Includes a video demo showing a couple of clips of operational procedures on the flight deck of the U.S.S. Gerald Ford at night. This video does not include audio, unfortunately.  
 
