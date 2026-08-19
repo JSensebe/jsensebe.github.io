@@ -61,7 +61,7 @@ Grouped early‑career handheld work:
 
 ---
 
-[← Back to Home](../index.html)
+[← Back to Home](../)
 
 ---
 
