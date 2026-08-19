@@ -79,7 +79,7 @@ These early DS projects were my introduction to professional game development. T
 
 ---
 
-[← Back to Projects](projects.html)
+[← Back to Projects](./)
 
 ---
 
