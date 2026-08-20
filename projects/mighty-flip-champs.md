@@ -3,9 +3,9 @@ layout: default
 title: Mighty Flip Champs!  
 ---
 # **Mighty Flip Champs!**
-### **Platform(s):** Nintendo DS  
+### **Platform(s):** Nintendo DSi  
 ### **Role:** Gameplay / Systems Engineer  
-### **Engine / Tech:** WayForward internal engine, Nintendo DS hardware  
+### **Engine / Tech:** WayForward internal engine, Nintendo DSi hardware  
 ### **Year:** 2009  
 
 ---
@@ -15,9 +15,9 @@ title: Mighty Flip Champs!
 
 Although I didn’t design most of the puzzles, I worked closely with the designer because puzzle games demand pixel‑perfect consistency — players can’t be punished for being “one pixel too far to the right.” My work ensured the flip mechanic was readable, responsive, and visually distinctive.
 
-The game performed well enough that it was later **ported to the PlayStation Portable** as *Mighty Flip Champs! DX*. I didn’t work on the port, but I was credited on it, likely because some of my gameplay logic was reused or referenced. The DS‑specific H‑blank raster effects obviously couldn’t be reused directly on PSP hardware, and the PSP version reimagined the transitions using GPU‑friendly 3D effects while matching the feel of the original.
+The game performed well enough that it was later **ported to the PlayStation Portable** as *Mighty Flip Champs! DX*. I didn’t work on the port, but I was credited on it, likely because some of my gameplay logic was reused or referenced. The DS/DSi‑specific H‑blank raster effects obviously couldn’t be reused directly on PSP hardware, and the PSP version reimagined the transitions using GPU‑friendly 3D effects while matching the feel of the original.
 
-*Mighty Flip Champs!* was the first entry in WayForward’s “Mighty” series, which later included *Mighty Milky Way*, *Mighty Switch Force!*, and *Mighty Switch Force! 2*.
+*Mighty Flip Champs!* was the first entry in WayForward’s “Mighty” series, which later included *Mighty Milky Way*, *Mighty Switch Force!*, *Mighty Switch Force! 2*, *Mighty Switch Force! Hose It Down!*, and *Mighty Switch Force! Academy*.
 
 ---
 
@@ -34,13 +34,13 @@ The game performed well enough that it was later **ported to the PlayStation Por
 ## **Technical Highlights**
 
 ### **1. Horizontal Blanking (H‑Blank) Effects**
-The DS’s H‑blank interrupt fires once per scanline, allowing per‑line manipulation of display registers. I used this to create:
+The DSi’s H‑blank interrupt fires once per scanline, allowing per‑line manipulation of display registers. I used this to create:
 
 - **vertical scaling** during the flip transition  
 - **a wavy distortion** on the bottom screen  
 - **a stronger wavy effect** during flips  
 
-These effects were based on earlier Game Boy Advance hobby work I had done, where I implemented more complex rotation and scaling H‑blank effects. The DS version was simpler by comparison, but still required careful integration into WayForward’s engine.
+These effects were based on earlier Game Boy Advance hobby work I had done, where I implemented more complex rotation and scaling H‑blank effects. The DSi version was simpler by comparison, but still required careful integration into WayForward’s engine.
 
 I pitched the wavy effect because the H‑blank integration was already solved — it was a natural extension of the technique and added visual flair without additional overhead.
 
@@ -82,20 +82,20 @@ This collaboration ensured the game felt responsive and readable despite its unu
 
 ---
 
-### **5. Technical Background: GBA → DS**
-My H‑blank work originated from earlier Game Boy Advance hobby projects. My GBA work included heavy H-blank calculations involving pseudo-3D rotation and scaling effects, so adapting the technique to the DS was straightforward — but integrating it into WayForward’s engine required careful engineering.
+### **5. Technical Background: GBA → DSi**
+My H‑blank work originated from earlier Game Boy Advance hobby projects. My GBA work included heavy H-blank calculations involving pseudo-3D rotation and scaling effects, so adapting the technique to the DSi was straightforward — but integrating it into WayForward’s engine required careful engineering.
 
 This background gave me a strong foundation in raster effects and scanline timing, which directly benefited the project.
 
 ---
 
 ## **Series Impact**
-*Mighty Flip Champs!* was the first game in WayForward’s “Mighty” series. Although I didn’t work on the PSP port, I was credited on it, likely because some of my gameplay logic or timing code was reused or referenced. The PSP version reimagined the flip effects using its 3D hardware, but retained the timing and feel established in the DS original.
+*Mighty Flip Champs!* was the first game in WayForward’s “Mighty” series. Although I didn’t work on the PSP port, I was credited on it, likely because some of my gameplay logic or timing code was reused or referenced. The PSP version reimagined the flip effects using its 3D hardware, but retained the timing and feel established in the DSi original.
 
 ---
 
 ## **Outcome**
-*Mighty Flip Champs!* shipped on Nintendo DS in 2009 and became the foundation for a multi‑game series. My contributions included writing most of the gameplay code, designing the H‑blank effects that defined the flip mechanic, integrating raster effects into the engine, and ensuring the puzzle gameplay behaved with pixel‑perfect consistency.
+*Mighty Flip Champs!* became available for purchase in the DSi Shop in 2009 and became the foundation for a multi‑game series. My contributions included writing most of the gameplay code, designing the H‑blank effects that defined the flip mechanic, integrating raster effects into the engine, and ensuring the puzzle gameplay behaved with pixel‑perfect consistency.
 
 ---
 
