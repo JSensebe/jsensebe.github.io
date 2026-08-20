@@ -1,4 +1,3 @@
----
 layout: default  
 title: Space Chimps  
 ---
@@ -11,7 +10,7 @@ title: Space Chimps
 ---
 
 ## **Overview**
-*Space Chimps* on Nintendo DS was a mix of minigames and level‑based gameplay built under tight constraints and minimal documentation. Many of the sections I owned had only a **single paragraph** of design description, requiring me to invent the gameplay, visual effects, and technical approach myself.
+*Space Chimps* on Nintendo DS was a mix of flying minigames and level‑based gameplay built under tight constraints and minimal documentation. I was given ownership of all the flying sequences, which had only a **single paragraph** of design description and a **simple sketch**, requiring me to invent the gameplay, visual effects, and technical approach myself.
 
 Several of my levels required the DS to do something it was not designed to do: **render 3D on both screens simultaneously**. Achieving this required engine‑level modifications, custom rendering tricks, and close collaboration with the art team to ensure assets matched the gameplay and technical requirements.
 
@@ -33,18 +32,18 @@ Several of my levels required the DS to do something it was not designed to do: 
 The Nintendo DS cannot natively render 3D to both screens at once. To support my levels, I engineered a custom pipeline:
 
 - Render **one screen per frame**  
-- Use the DS’s **screen capture hardware** to store the rendered frame  
+- Use the DS’s **screen‑capture hardware** to store the rendered frame  
 - Render the other screen on the next frame  
-- Display both screens simultaneously using captured buffers  
+- Display both screens together: one showing the freshly rendered 3D frame, and the other showing the captured buffer, creating the appearance of 3D on both screens simultaneously
 
 Because of DS memory layout:
 
-- one screen must be captured into **screen memory**,  
-- the other into **sprite memory**.
+- one screen must be captured into **background (screen) memory**,  
+- the other into **sprite memory**, displayed as a full‑screen sprite layer.
 
 This required:
 
-- **pre‑empting the engine’s sprite handler**,  
+- **overriding the engine’s sprite handler**,  
 - modifying engine internals to support alternating 3D renders,  
 - ensuring smooth updates despite the DS’s strict memory and timing constraints.
 
@@ -70,15 +69,26 @@ Because I was inventing much of the gameplay myself, the art team needed assets 
 
 - more collaboration than usual  
 - constant iteration between gameplay and visuals  
-- ensuring art matched the technical constraints of DS hardware  
-- providing my own simple assets when needed to unblock production
+- ensuring art matched DS hardware constraints  
+- providing my own simple assets when needed to unblock production  
+
+I also designed the systems that assembled scenery dynamically during flight:
+
+#### **Asteroid flight**
+I randomized asteroid paths and computed safe gaps for the player to fly through. When a coin‑collecting mechanic was added, the coins were placed in these safe gaps, acting as a natural guide for the player.
+
+#### **Canyon flight**
+The canyon was assembled from modular pieces placed ahead of the player. Pieces could be slanted for variation, and I asked artists to add a “lip” to each section to hide seams.
+
+#### **Warp‑tube flight**
+The warp tube used the same modular approach as the canyon, but could slant **up, down, left, or right**, creating a winding tunnel the player had to navigate.
 
 I created small but essential assets such as:
 
 - smoke  
 - dirt  
 - debris  
-- warp tube textures  
+- warp‑tube textures  
 
 These supported the custom rendering effects and gameplay I designed.
 
@@ -88,13 +98,13 @@ These supported the custom rendering effects and gameplay I designed.
 To achieve the look and feel of my levels within DS hardware limits, I implemented several clever effects:
 
 #### **Billboarding distant asteroids**
-Used billboards for far asteroids to reduce geometry load while maintaining depth.
+The system couldn’t render the number of asteroids I wanted as real geometry, so distant asteroids were rendered as billboards — 2D sprites that always face the camera — preserving depth while reducing geometry load.
 
 #### **Smoke effects using fog + transparency without a framebuffer**
 The DS has **no framebuffer**, so normal blending isn’t possible.  
-I simulated smoke using fog and transparency tricks that worked within hardware constraints.
+I simulated smoke using fog and billboard transparency tricks that worked within hardware constraints.
 
-#### **Space warp sequence using texture modulation**
+#### **Space‑warp sequence using texture modulation**
 By stretching and modulating a few abstract textures, I created many variations for the warp effect without additional memory cost.
 
 These techniques allowed visually rich scenes on extremely limited hardware.
@@ -127,15 +137,14 @@ I worked closely with artists to ensure assets matched the gameplay and technica
 
 ---
 
-## **Video**
-Here is a sample of the gameplay in *Space Chimps*  
-*(You can replace this with a preferred clip later.)*
+## **Links**
+- **<a href="https://www.youtube.com/watch?v=jGv0GbeYmo4&t=108s" target="_blank" rel="noopener noreferrer">Gameplay Video</a>**  
+  A YouTube video showing some of *Space Chimps*’ gameplay.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;">
-  <iframe 
-    src="https://www.youtube-nocookie.com/embed/0t8Jt8gY8uE" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-    frameborder="0" 
-    allowfullscreen>
-  </iframe>
-</div>
+---
+
+[← Back to Projects](./)
+
+---
+
+<p style="font-size: 0.75em;">© 2026 John Sensebe — Gameplay & Simulation Engineer</p>
