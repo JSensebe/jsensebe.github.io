@@ -13,7 +13,7 @@ title: WayForward Nintendo DS Projects
 ## **Overview**
 These three titles represent my earliest professional game development work. They were my introduction to WayForward’s internal engine, the Nintendo DS hardware, and the realities of commercial game production. Each project taught me something different — rapid iteration under shifting design goals, direct hardware‑level programming, and the constraints of handheld 3D.
 
-Although these games were small in scope compared to later projects, they formed the foundation of my career and proved I could deliver real, shippable gameplay under tight deadlines.
+Although my work was smaller in scope compared to later projects, these games formed the foundation of my career and proved I could deliver real, shippable gameplay under tight deadlines.
 
 ---
 
@@ -25,13 +25,15 @@ This was my first commercial game project and my introduction to both WayForward
 Despite the upheaval, I contributed a significant amount of gameplay code, enemy behavior, animation logic, and special effects.
 
 ## **My Contributions**
-- Built the **touch‑screen gesture system** using the NDS SDK  
+- Built the **touch‑screen gesture system** using the NDS SDK; the gestures changed during development, but my code was flexible enough to handle it  
+- Implemented a microphone-blowing mechanic to chase away jellyfish on the upper screen
 - Implemented most of the **player gameplay mechanics**, including special moves  
+- Implemented most of the **world gameplay mechanics**, including interactive objects  
 - Wrote a **complex helicopter boss battle** (later cut during redesign)  
 - Implemented **enemy AI** and animation behavior across multiple levels  
 - Added numerous **visual effects**, including:
   - Plankton’s giant transformation (pitched‑down laugh, bullet hit effects)  
-  - Player‑squash effects when heavy objects fell  
+  - Player‑squash effects when heavy objects fell on them  
 - Adapted gameplay repeatedly as the design changed  
 
 ## **Notes**
@@ -39,30 +41,43 @@ One highlight was the level where Plankton grows to giant size and fights off th
 
 ---
 
+## **Links**
+- **<a href="https://www.youtube.com/watch?v=kF9WPUvkJ5A&t=50s" target="_blank" rel="noopener noreferrer">Gameplay Video</a>**  
+  A YouTube video showing some of *SpongeBob SquarePants: Creature from the Krusty Krab*’s gameplay.
+
+---
+
 # **Looney Tunes: Duck Amuck (NDS)** {#duck-amuck}
 
 ## **Overview**
-Duck Amuck was based loosely on the classic cartoon short, with many minigames inspired by modern concepts rather than the original film. I wrote two of the minigames, each requiring very different technical approaches — one involving direct polygon manipulation, the other involving text input, localization, and drawing compression.
+*Duck Amuck* was based loosely on the classic cartoon short, with many minigames inspired by modern concepts rather than the original film. I wrote two of the minigames, each requiring very different technical approaches — one involving direct polygon manipulation, the other involving text input, localization, and drawing compression.
 
 ## **My Contributions**
 - Wrote two full minigames:
-  - **The Bleeding Black**  
-  - **Chat Splat**  
+  - **“The Bleeding Black”**  
+  - **“Chat Splat”**  
 - Programmed DS polygon hardware directly for dynamic effects  
 - Implemented localized text‑chat gameplay  
 - Added player drawing and **compressed drawings** for later quiz use  
 
 ## **Notes**
-**The Bleeding Black** recreated the moment in the cartoon where the top of the frame collapses on Daffy’s head. To simulate this, I accessed the DS’s polygon hardware directly and created a dynamic “blackness” that behaved like a fabric sim dropping onto Daffy.
+**“The Bleeding Black”** recreated the moment in the cartoon where the top of the frame collapses on Daffy’s head. To simulate this, I accessed the DS’s polygon hardware directly and created a dynamic “blackness” that behaved like a fabric sim dropping onto Daffy.  
+**“Chat Splat”** simulated a text chat with Daffy. The player typed phrases to push chat bubbles upward and smash Daffy into the top of the screen. Because the minigame relied heavily on text, I worked with localized versions to ensure the gameplay still functioned properly when the chat wasn’t in English. When designers wanted player drawings added, I wrote code to compress the drawings so they could be stored and reused in a later quiz — preventing players from scribbling nonsense.
 
-**Chat Splat** simulated a text chat with Daffy. The player typed phrases to push chat bubbles upward and smash Daffy into the top of the screen. Because the minigame relied heavily on text, I worked with localized versions to ensure the gameplay still functioned when the chat wasn’t in English. When designers wanted player drawings added, I wrote code to compress the drawings so they could be stored and reused in a later quiz — preventing players from scribbling nonsense.
+---
+
+## **Links**
+- **<a href="https://www.youtube.com/watch?v=gRrKPlYkT94&t=30s" target="_blank" rel="noopener noreferrer">“The Bleeding Black”</a>**  
+  A YouTube video showing “The Bleeding Black” gameplay of *Looney Tunes: Duck Amuck*.
+- **<a href="https://www.youtube.com/watch?v=6rTRSSQRRK8&t=19s" target="_blank" rel="noopener noreferrer">“Chat Splat”</a>**  
+  A YouTube video showing “Chat Splat” gameplay of *Looney Tunes: Duck Amuck*. This player figured out how to cheat the drawing.
 
 ---
 
 # **Shrek: Ogres & Dronkeys (NDS)** {#shrek}
 
 ## **Overview**
-This project was smaller in scope, and my work focused on a single minigame involving collecting fireflies. Despite its simplicity, it required careful handling of DS transparency and animation timing.
+My work on this project was smaller in scope and focused on a single minigame involving collecting fireflies. Despite its simplicity, it required careful handling of DS transparency and animation timing.
 
 ## **My Contributions**
 - Wrote the **firefly collection minigame**  
@@ -76,6 +91,12 @@ The minigame involved one of the babies collecting fireflies as quickly as possi
 
 ## **Outcome**
 These early DS projects were my introduction to professional game development. They taught me how to work within strict hardware limitations, adapt quickly to changing designs, and write gameplay code that shipped. The experience I gained here — from touch‑screen gesture systems to direct polygon manipulation — became the technical foundation for the handheld and console projects that followed.
+
+---
+
+## **Links**
+- **<a href="https://www.youtube.com/watch?v=bnZx5A_uXgY&t=13114s" target="_blank" rel="noopener noreferrer">Gameplay Video</a>**  
+  A YouTube video showing the firefly minigame in *Shrek: Ogres & Dronkeys*. I apologize for the commentary. It was difficult finding specific footage of my work.
 
 ---
 
