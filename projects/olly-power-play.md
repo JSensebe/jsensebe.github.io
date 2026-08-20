@@ -6,7 +6,7 @@ title: Olly Power Play
 ### **Platform(s):** Meta Quest 2, Pico Neo 4  
 ### **Role:** Gameplay / Systems Engineer  
 ### **Engine / Tech:** Unity, VR (Meta Quest 2 / Pico Neo 4)  
-### **Year:** 2023  
+### **Year:** 2022  
 
 ---
 
@@ -33,6 +33,7 @@ My earliest tasks included:
   - field‑of‑view detection  
   - turtles fleeing or hiding in shells  
   - sneaking mechanics (approach outside FOV)
+  - scalable to more than 50 turtles in play
 
 During this period, I also worked on Olly’s animator controller, IK systems, procedural blinking, and animation tools.
 
@@ -48,7 +49,7 @@ The project’s direction changed several times:
 
 I was also assigned to several small projects, including an Android app that inserted Olly into photos for convention use.
 
-Although none of these projects shipped, the technical work — AI systems, animation logic, IK, and tools — would later become essential.
+Although none of these projects shipped (the photo app was used at a convention), the technical work — AI systems, animation logic, IK, and tools — would later become essential.
 
 ---
 
@@ -58,7 +59,7 @@ During this limbo period, I was given a **Meta Quest 2** (still branded Oculus a
 - Olly throws a ball  
 - The player catches it  
 
-There were no throwing animations, so I repurposed part of a kicking animation to simulate a throw. I built the prototype in a few days, and the design began evolving immediately.
+There were no throwing animations, so I repurposed part of a kicking animation — inspired by *The Karate Kid* — and had Olly kick balls to you instead. I built the prototype in a few days, and the design began evolving immediately.
 
 This was the moment Olly returned to the forefront of Waysun’s development efforts.
 
@@ -72,6 +73,9 @@ The prototype grew rapidly:
 - Level‑up effect: Olly points to the sky and shoots lightning (particle effect)  
 - Kicking replaced by a bucket of balls  
 - Hoops replaced by targets  
+
+As the game improved, *Olly Power Play* emerged from the prototype. The changes kept coming:
+
 - Balls replaced by fruit  
 - Fruit splattered on impact (particle effect)  
 - Sand and grass billboard particles  
@@ -79,15 +83,13 @@ The prototype grew rapidly:
 - New animations created specifically for the game  
 - I worked closely with artists to integrate them
 
-As the game improved, Olly Power Play emerged from the prototype.
-
 ---
 
 ## **My Responsibilities**
 - Wrote the **throwing physics** from scratch  
 - Implemented the **catching mechanic**  
 - Built **complex animator controllers** for Olly  
-- Developed **custom IK** for Olly’s head  
+- Developed **custom IK** for Olly’s head to support squash‑and‑stretch behavior (the built‑in IK couldn’t be used)  
 - Created the **procedural blinking system**  
 - Built tools for managing animation triggers  
 - Built a tool to **auto‑detect footsteps** and add sound triggers  
@@ -95,7 +97,6 @@ As the game improved, Olly Power Play emerged from the prototype.
   - sand and grass billboard particles  
   - fruit splatter  
   - leaf particles  
-  - lightning bolt effect  
 - Collaborated on VR performance optimizations  
   - prerendered shadow maps  
   - simplified geometry  
@@ -112,6 +113,7 @@ The throwing mechanic is the core of the game. I wrote the physics from scratch,
 - intuitive control  
 - predictable arcs  
 - consistent behavior across frame rates  
+- more forceful throws that still felt “right,” allowing players without a powerful throwing arm to reach the farthest targets  
 - special fruit power‑ups with enhanced force  
 
 A commercial throwing‑mechanic plug‑in was tested, but my implementation felt more natural and offered better control.
@@ -136,7 +138,7 @@ Olly’s animator controllers were complex, requiring:
 - procedural blinking  
 - coordination between animations and procedural systems  
 
-For example, if an animation closed Olly’s eyes, the blinking system had to be disabled during that period.
+For example, when Olly closes his eyes and scratches his nose, blinking and head‑tracking must be disabled temporarily so the animation can fully control eyelids and head position.
 
 ---
 
@@ -156,14 +158,13 @@ I created multiple particle systems:
 - sand and grass billboard particles  
 - fruit splatter on impact  
 - leaf particles when fruit passed through trees  
-- lightning bolts for level‑up sequences  
 
 These effects added clarity and personality to the game.
 
 ---
 
 ### **6. VR Performance Work**
-VR requires strict frame rates. I collaborated with other engineers to:
+VR requires strict minimum frame rates. Since *Olly Power Play* ran entirely on standalone headsets without PC support, this created technical challenges. I collaborated with other engineers to:
 
 - use prerendered shadow maps  
 - simplify geometry  
@@ -178,15 +179,16 @@ These optimizations ensured smooth performance on both Meta Quest 2 and Pico Neo
 
 ---
 
-## **Video**
-Here is a sample of the gameplay in *Olly Power Play*  
-*(You can replace this with a preferred clip later.)*
+## **Links**
+- **<a href="https://www.meta.com/experiences/olly-power-play/5087128164632155/" target="_blank" rel="noopener noreferrer">Official Meta Page</a>**  
+ The official Meta page for *Olly Power Play*, including a trailer and reviews.  
+- **<a href="https://youtu.be/ZOf7w9cs8rA?t=154" target="_blank" rel="noopener noreferrer">Gameplay Video</a>**  
+  A YouTube video showing some of *Olly Power Play*’s gameplay. (I do not advise throwing with both hands if you want a high score.)   
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;">
-  <iframe 
-    src="https://www.youtube-nocookie.com/embed/1tG0pVgX9nE" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-    frameborder="0" 
-    allowfullscreen>
-  </iframe>
-</div>
+---
+
+[← Back to Projects](./)
+
+---
+
+<p style="font-size: 0.75em;">© 2026 John Sensebe — Gameplay & Simulation Engineer</p>
