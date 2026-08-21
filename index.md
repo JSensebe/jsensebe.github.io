@@ -29,19 +29,19 @@ I thrive where engineering, design, and art intersect. Whether architecting game
 ## **Selected Projects**
 
 ### **Game Development**
+- [**Olly Power Play**](projects/olly-power-play.html)  (Meta Quest 2, Pico Neo 4) — VR gameplay engineering and systems development
 - [**Jillian Michaels Fitness Adventure**](projects/jillian-michaels.html) (Xbox 360) — Kinect gameplay systems, body‑tracking logic, and large‑scale gameplay engineering  
 - [**Mighty Flip Champs!**](projects/mighty-flip-champs.html)  (Nintendo DSi) — Hardware‑level graphics programming, horizontal blanking effects, and core gameplay architecture
 - [**Space Chimps**](projects/space-chimps.html)  (Nintendo DS) — Dual‑screen 3D rendering, engine modification, and custom gameplay design
-- [**Olly Power Play**](projects/olly-power-play.html)  (Meta Quest 2, Pico Neo 4) — VR gameplay engineering and systems development
 - [**Skylanders: Giants**](projects/skylanders-giants.html) (Nintendo 3DS) — Gameplay systems and platform integration
 - [**Skylanders: SWAP Force**](projects/skylanders-swap-force.html) (Nintendo 3DS) — Gameplay systems, tool engineering, and platform integration
 - [**Heroes of Ruin**](projects/heroes-of-ruin.html) (3DS) — Gameplay engineering and performance improvements  
-- [**Halo Mega Bloks (Cancelled)**](projects/halo-mega-bloks.html) (Xbox 360) — Systems architecture and gameplay iteration  
+- [**Halo Mega Bloks (Cancelled)**](projects/halo-mega-bloks.html) (Xbox 360) — Unreal Engine 3 gameplay systems, AI improvements, and cover‑system optimization  
 
 ### **Simulation & Training**
 - [**Virginia Torpedo Room Block III Trainer**](projects/blk-iii-submarine-trainer.html)  — Real‑time simulation and training logic  
 - [**688i Weapons Launch Console Trainer**](projects/688i-submarine-trainer.html)  — Real‑time simulation and training logic  
-- [**EMALS Ops and Maintenance Trainer**](projects/emals.html) — High‑fidelity complex simulation including multiple trainees and automated agents   
+- [**EMALS Ops and Maintenance Trainer**](projects/emals.html) — High‑fidelity complex simulation including multiple trainees and automated deck personnel   
 
 ---
 
