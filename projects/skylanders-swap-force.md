@@ -125,7 +125,7 @@ I worked closely with designers to support gameplay behaviors and menu interacti
 ---
 
 ## **Outcome**
-*Skylanders: SWAP Force* shipped on Nintendo 3DS in 2013. My contributions expanded the scripting language, redesigned memory architecture, improved debugging workflows, enabled dynamic loading of over 100 characters, and delivered one of the franchise’s most praised boss encounters. Much of my code for *Skylanders: SWAP Force* would go on to be used in *Skylanders: Trap Team*.
+*Skylanders: SWAP Force* shipped on Nintendo 3DS in 2013. My contributions expanded the scripting language, redesigned memory architecture, improved debugging workflows, enabled dynamic loading of over 100 characters, and delivered one of the franchise’s most praised boss encounters. Much of my code for *Skylanders: SWAP Force* would go on to be used in *Skylanders: Trap Team*. *Skylanders: SWAP Force* is generally considered to be the best game in the series on the 3DS.
 
 ---
 
