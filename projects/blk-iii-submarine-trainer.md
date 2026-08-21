@@ -64,7 +64,7 @@ Because the project was already deep into development, I had to work within:
 - legacy .NET constraints,  
 - and code written by multiple contractors with inconsistent styles.
 
-I cleaned up numerous ad‑hoc systems while preserving compatibility, ensuring the trainer could ship without a full rewrite.
+I cleaned up numerous ad‑hoc systems while preserving compatibility, ensuring the trainer could ship without a full rewrite. I also added a sortable, searchable dropdown property drawer for managing the growing list of messages supported by the system.
 
 ---
 
