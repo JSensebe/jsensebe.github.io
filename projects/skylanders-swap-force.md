@@ -14,7 +14,7 @@ title: "Skylanders: SWAP Force"
 *Skylanders: SWAP Force* was the most ambitious handheld entry in the franchise. Unlike previous 3DS titles, which could only load two Skylanders at a time, *SWAP Force* needed to store the player’s **entire Skylander collection** in save data and load **any** of them on demand during gameplay. This was a major shift:
 
 - *Spyro’s Adventure* supported **32** characters  
-- *Giants* supported **56**  
+- [*Giants*](./skylanders-giants.html) supported **56**  
 - *SWAP Force* added **40 more**, for a total of **96**  
 - SWAP Force characters were split into top and bottom halves, bringing the real total to **112**  
 
