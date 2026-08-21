@@ -39,8 +39,9 @@ I thrive where engineering, design, and art intersect. Whether architecting game
 - [**Halo Mega Bloks (Cancelled)**](projects/halo-mega-bloks.html) (Xbox 360) — Systems architecture and gameplay iteration  
 
 ### **Simulation & Training**
-- [**688i Submarine Trainer**](projects/688i-submarine-trainer.html)  — Real‑time simulation and training logic  
-- [**EMALS**](projects/emals.html) — High‑fidelity complex simulation including multiple trainees and automated agents   
+- [**Virginia Torpedo Room Block III Trainer**](projects/blk-iii-submarine-trainer.html)  — Real‑time simulation and training logic  
+- [**688i Weapons Launch Console Trainer**](projects/688i-submarine-trainer.html)  — Real‑time simulation and training logic  
+- [**EMALS Ops and Maintenance Trainer**](projects/emals.html) — High‑fidelity complex simulation including multiple trainees and automated agents   
 
 ---
 
