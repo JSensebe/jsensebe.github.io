@@ -114,10 +114,10 @@ This approach has allowed junior engineers to build confidently on top of my wor
 ---
 
 ## **Projects Using Unity**
-- [**EMALS Ops and Maintenance Trainer**](projects/emals.html) 
-- [**688i Weapons Launch Console Trainer**](projects/688i-submarine-trainer.html)  
-- [**Virginia Torpedo Room Block III Trainer**](projects/blk-iii-submarine-trainer.html)  
-- [**Olly Power Play**](projects/olly-power-play.html) (Quest 2, URP, new Input System)  
+- [**EMALS Ops and Maintenance Trainer**](/projects/emals.html) 
+- [**688i Weapons Launch Console Trainer**](/projects/688i-submarine-trainer.html)  
+- [**Virginia Torpedo Room Block III Trainer**](/projects/blk-iii-submarine-trainer.html)  
+- [**Olly Power Play**](/projects/olly-power-play.html) (Quest 2, URP, new Input System)  
 - **Commercial Game Prototypes** (internal Waysun projects for Android, iOS, and Quest 2)
 
 ---
