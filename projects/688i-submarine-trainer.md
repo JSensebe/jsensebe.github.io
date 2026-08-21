@@ -95,7 +95,7 @@ I worked closely with SMEs and visited the **U.S.S. Pasadena** to gather referen
 ---
 
 ## **Outcome**
-The 688i trainer shipped successfully and exceeded expectations. The modernization effort preserved the original logic, delivered a significantly improved interface, and avoided a costly server rewrite. The Navy later commissioned a **688 2<sup>nd</sup> Flight Weapons Launch Console Trainer** built on top of my codebase, which junior engineers extended without needing assistance — a testament to the clarity and maintainability of the architecture.
+The 688i trainer was deployed successfully and exceeded expectations. The modernization effort preserved the original logic, delivered a significantly improved interface, and avoided a costly server rewrite. The Navy later commissioned a **688 2<sup>nd</sup> Flight Weapons Launch Console Trainer** built on top of my codebase, which junior engineers extended without needing assistance — a testament to the clarity and maintainability of the architecture.
 
 ---
 
