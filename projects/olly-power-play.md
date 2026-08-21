@@ -26,7 +26,8 @@ My earliest tasks included:
 
 - **Island wandering AI** using a heat‑map system  
   - Areas “cooled” over time  
-  - Olly was more likely to wander to places he hadn’t visited recently  
+  - Olly was more likely to wander to places he hadn’t visited recently
+  - Olly could look at objects he passed along the way using a custom IK algorithm
 
 - **Turtle AI** for a minigame  
   - flocking behavior  
@@ -82,6 +83,7 @@ As the game improved, *Olly Power Play* emerged from the prototype. The changes 
 - Leaf particles when fruit passed through trees  
 - New animations created specifically for the game  
 - I worked closely with artists to integrate them
+- Improved IK from my first version and routines to determine what Olly looks at (the player, the fruit, the UI, etc.)
 
 ---
 
@@ -136,6 +138,7 @@ Olly’s animator controllers were complex, requiring:
 - custom IK for head movement  
 - animation‑controlled IK toggling  
 - procedural blinking  
+- cues for voice clips to synchronize with Olly's mouth movements
 - coordination between animations and procedural systems  
 
 For example, when Olly closes his eyes and scratches his nose, blinking and head‑tracking must be disabled temporarily so the animation can fully control eyelids and head position.
