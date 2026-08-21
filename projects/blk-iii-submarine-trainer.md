@@ -87,7 +87,7 @@ I coordinated with other engineers to integrate my rewritten systems without dis
 ---
 
 ## **Outcome**
-The Block III trainer shipped successfully, and the project established my engineering approach at ProActive and set the stage for my later leadership roles on the [688i](./688i-submarine-trainer.html) and [EMALS](./emals.html) trainers.
+The Block III trainer was deployed successfully, and the project established my engineering approach at ProActive and set the stage for my later leadership roles on the [688i](./688i-submarine-trainer.html) and [EMALS](./emals.html) trainers.
 
 ---
 
