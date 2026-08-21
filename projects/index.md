@@ -48,10 +48,10 @@ Grouped early‑career handheld work:
 ## **Simulation & Training Systems**
 
 ### **Navy / Air Force Trainers**
-- [**Virginia Block III Submarine Trainer**](blk-iii-submarine-trainer.html)  
+- [**Virginia Torpedo Room Block III Trainer**](blk-iii-submarine-trainer.html)  
   Real‑time simulation logic, deterministic systems, and multi‑station training behavior.
   
-- [**688i Submarine Trainer**](688i-submarine-trainer.html)  
+- [**688i Weapons Launch Console Trainer**](688i-submarine-trainer.html)  
   Real‑time simulation logic, deterministic systems, and multi‑station training behavior.
 
 - [**EMALS Ops and Maintenance Trainer**](emals.html)  
