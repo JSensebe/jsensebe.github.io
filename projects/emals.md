@@ -15,7 +15,7 @@ The Electromagnetic Aircraft Launch System (EMALS) trainer was one of the most a
 
 Operations required capabilities ProActive had never implemented before: animated human personnel, speech recognition, audible call‑outs, multi‑trainee coordination (up to five trainees at once), and complex abort/recovery logic that had to behave deterministically under all conditions. The project began with a heavy R&D phase, during which I built prototypes to validate animation systems, navigation logic, and speech recognition workflows before full production began.
 
-I also visited the **USS Gerald R. Ford** with the lead artist to gather reference photos for flight‑deck assets and equipment. EMALS demanded a level of accuracy and procedural fidelity far beyond previous trainers, and the final system became one of ProActive’s most advanced simulation products.
+I also visited the **USS Gerald R. Ford** with the lead artist to gather reference photos for flight‑deck assets and equipment. EMALS demanded a level of accuracy and procedural fidelity beyond previous trainers, and the final system became one of ProActive’s most advanced simulation products.
 
 ---
 
@@ -63,7 +63,7 @@ I implemented speech recognition using the Unity wrapper and built procedural lo
 - audible speech feedback  
 - deterministic behavior across multi‑station setups  
 
-This was ProActive’s first trainer with speech recognition. I also recorded coworkers to provide voices for synthetic personnel and cleaned up the recordings, as ProActive did not have a proper studio environment.
+This was ProActive’s first trainer with speech recognition. I also recorded coworkers to provide voices for synthetic personnel, providing the audible call‑outs used during launch procedure, and cleaned up the recordings, as ProActive did not have a proper studio environment and background noise and reverberation were issues.
 
 ---
 
@@ -148,7 +148,7 @@ EMALS procedures are highly detailed and safety‑critical. I worked closely wit
 The EMALS system was new and the procedures were evolving. Much of the system relied on SME knowledge, requiring deep familiarity with EMALS procedures. In some cases, written maintenance procedures were rendered impossible by physical reconfigurations on the ship.
 
 ### **Day/Night Conditions**
-Operations required adjustments for day and night lighting conditions on the flight deck. This doubled the number of signaling animations: during the day, crew used hand signals; at night, they used lighted batons.
+Operations required adjustments for day and night lighting conditions on the flight deck. Day and night operations required separate signaling systems: hand signals during the day and lighted batons at night, effectively doubling the number of signaling animations.
 
 ---
 
