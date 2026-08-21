@@ -54,7 +54,7 @@ Grouped early‑career handheld work:
 - [**688i Submarine Trainer**](688i-submarine-trainer.html)  
   Real‑time simulation logic, deterministic systems, and multi‑station training behavior.
 
-- [**EMALS**](emals.html)  
+- [**EMALS Ops and Maintenance Trainer**](emals.html)  
   High‑fidelity physics simulation, multi‑trainee coordination, and automated agent behavior.
 
 ---
