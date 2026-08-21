@@ -142,10 +142,10 @@ I work closely with SMEs, artists, designers, and other engineers to ensure syst
 ---
 
 ## **Representative Projects**
-- [**EMALS Ops and Maintenance Trainer**](emals.html) — full‑scale simulation featuring animated personnel, speech recognition, multi‑trainee coordination, and complex abort/recovery logic.  
-- [**688i Submarine Trainer**](688i-submarine-trainer.html) — hybrid 2D/3D modernization with data‑driven UI reconstruction, nav‑mesh‑based personnel movement, and deterministic multi‑client behavior.  
-- [**Virginia Block III Submarine Trainer**](blk-iii-submarine-trainer.html) — legacy Unity project involving UI framework cleanup, valve‑interaction redesign, and modernization of inherited systems.  
-- [**Olly Power Play**](olly-power-play.html) — VR game development using URP and Unity’s new Input System, including optimization work for mobile VR hardware.  
+- [**EMALS Ops and Maintenance Trainer**](/projects/emals.html) — full‑scale simulation featuring animated personnel, speech recognition, multi‑trainee coordination, and complex abort/recovery logic.  
+- [**688i Submarine Trainer**](/projects/688i-submarine-trainer.html) — hybrid 2D/3D modernization with data‑driven UI reconstruction, nav‑mesh‑based personnel movement, and deterministic multi‑client behavior.  
+- [**Virginia Block III Submarine Trainer**](/projects/blk-iii-submarine-trainer.html) — legacy Unity project involving UI framework cleanup, valve‑interaction redesign, and modernization of inherited systems.  
+- [**Olly Power Play**](/projects/olly-power-play.html) — VR game development using URP and Unity’s new Input System, including optimization work for mobile VR hardware.  
 - **Various Waysun Prototypes** — internal Android, iOS, and Quest 2 projects exploring new mechanics, input systems, rendering pipelines, and rapid gameplay iteration.
 
 ---
